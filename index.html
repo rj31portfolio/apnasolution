@@ -1,0 +1,1290 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Apna Solution HTML5 Template">
+
+    <title>Apna Solution Digital Agency</title>
+
+    <!-- Fav Icon -->
+    <link rel="icon" type="image/x-icon" href="assets/imgs/logo/favicon.png">
+
+    <!-- All CSS files -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+    <link rel="stylesheet" href="assets/css/progressbar.css">
+    <link rel="stylesheet" href="assets/css/meanmenu.min.css">
+    <link rel="stylesheet" href="assets/css/magnific-popup.css">
+    <link rel="stylesheet" href="assets/css/master-branding-agency.css">
+</head>
+
+<body class="font-heading-instumentsans-semibold">
+
+    <!-- Preloader -->
+    <div id="preloader">
+        <div id="container" class="container-preloader">
+            <div class="animation-preloader">
+                <div class="spinner"></div>
+                <div class="txt-loading">
+                    <span data-text="A" class="characters">A</span>
+                    <span data-text="P" class="characters">P</span>
+                    <span data-text="N" class="characters">N</span>
+                    <span data-text="A" class="characters">A</span>
+                    <span data-text="S" class="characters">S</span>
+                    <span data-text="O" class="characters">O</span>
+                    <span data-text="L" class="characters">L</span>
+                </div>
+            </div>
+            <div class="loader-section section-left"></div>
+            <div class="loader-section section-right"></div>
+        </div>
+    </div>
+
+    <!-- Cursor Animation -->
+    <div class="cursor1"></div>
+    <div class="cursor2"></div>
+
+    <!-- Scroll to top -->
+    <div class="progress-wrap">
+        <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
+            <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98"></path>
+        </svg>
+    </div>
+
+    <!-- Switcher Area Start -->
+    <div class="switcher__area">
+        <div class="switcher__icon">
+            <button id="switcher_open"><i class="fa-solid fa-gear"></i></button>
+            <button id="switcher_close"><i class="fa-solid fa-xmark"></i></button>
+        </div>
+        <div class="switcher__items">
+            <div class="switcher__item">
+                <div class="switch__title-wrap">
+                    <p class="switcher__title">mode</p>
+                </div>
+                <div class="switcher__btn mode-type wc-col-2">
+                    <button class="active" data-mode="light">light</button>
+                    <button data-mode="dark">dark</button>
+                </div>
+            </div>
+            <div class="switcher__item">
+                <div class="switch__title-wrap">
+                    <p class="switcher__title">Language Support</p>
+                </div>
+                <div class="switcher__btn lang_dir wc-col-2">
+                    <button class="active" data-mode="ltr">LTR</button>
+                    <button data-mode="rtl">RTL</button>
+                </div>
+            </div>
+            <div class="switcher__item">
+                <div class="switch__title-wrap">
+                    <p class="switcher__title">Layout</p>
+                </div>
+                <div class="switcher__btn layout-type wc-col-2">
+                    <button class="active" data-mode="full-width">Full Width</button>
+                    <button data-mode="box-layout">Box Layout</button>
+                </div>
+            </div>
+            <div class="switcher__item">
+                <div class="switch__title-wrap">
+                    <p class="switcher__title">Cursor</p>
+                </div>
+                <div class="switcher__btn">
+                    <select name="cursor-style" id="cursor_style">
+                        <option value="1">default</option>
+                        <option selected value="2">animated</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Switcher Area End -->
+
+    <!-- Offcanvas Start -->
+    <div class="offcanvas-3__area">
+        <div class="offcanvas-3__inner">
+            <div class="offcanvas-3__meta-wrapper">
+                <div class="">
+                    <button id="close_offcanvas" class="close-button close-offcanvas" onclick="hideCanvas3()">
+                        <span></span>
+                        <span></span>
+                    </button>
+                </div>
+                <div class="">
+                    <div class="offcanvas-3__meta mb-145 d-none d-md-block">
+                        <ul>
+                            <li><a href="tel:+91-123-456-7890" class="unnerline"><u>+91-931037536</u></a></li>
+                            <li><a href="mailto:info@apnasolution.com">info@apnasolution.com</a></li>
+                            <li><a href="">I-98/A, <br> Krishan vihar delhi - 110086, India</a></li>
+                        </ul>
+                    </div>
+                    <div class="offcanvas-3__social d-none d-md-block">
+                        <p class="title">Follow Us</p>
+                        <div class="offcanvas-3__social-links">
+                            <a href=""><i class="fa-brands fa-facebook-f"></i></a>
+                            <a href=""><i class="fa-brands fa-twitter"></i></a>
+                            <a href=""><i class="fa-brands fa-instagram"></i></a>
+                            <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="offcanvas-3__menu-wrapper">
+                <nav class="nav-menu offcanvas-3__menu">
+                    <ul>
+                        <li><a href="#">home</a></li>
+                        <li><a href="#">about</a></li>
+                        <li><a href="#">services</a></li>
+                        <li><a href="#">service details</a></li>
+                        <li><a href="#">projects</a></li>
+                        <li><a href="#">project details</a></li>
+                        <li><a href="#">team</a></li>
+                        <li><a href="#">team details</a></li>
+                        <li><a href="#">career</a></li>
+                        <li><a href="#">career details</a></li>
+                        <li><a href="#">faq</a></li>
+                        <li><a href="#">404 page</a></li>
+                        <li><a href="#">blog</a></li>
+                        <li><a href="#">blog details</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </div>
+    <!-- Offcanvas End -->
+
+    <!-- Search Modal Start -->
+    <div class="modal fade" id="search-template" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="search-template" aria-hidden="true">
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <form action="#" class="form-search">
+                        <input type="text" placeholder="Search">
+                        <button type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Search Modal End -->
+
+    <!-- Header Area Start -->
+    <header class="header-area">
+        <div class="container large">
+            <div class="header-area__inner">
+                <div class="header__logo">
+                    <a href="#">
+                        <img src="assets/imgs/logo/logo.png" alt="Apna Solution Logo">
+                    </a>
+                </div>
+                <div class="header__nav pos-center">
+                    <nav class="main-menu">
+                        <ul>
+                            <li class="menu-item-has-children">
+                                <a href="#">Services</a>
+                                <ul class="dp-menu col-2">
+                                    <li><a href="web-designing.html">Web Designing</a></li>
+                                    <li><a href="seo.html">SEO</a></li>
+                                    <li><a href="social-media-handling.html">Social Media Handling</a></li>
+                                    <li><a href="brand-growing.html">Brand Growing</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="about.html">about</a></li>
+                            <li class="menu-item-has-children">
+                                <a href="#">portfolio</a>
+                                <ul class="dp-menu">
+                                    <li><a href="portfolio-carousel.html">Portfolio Carousel</a></li>
+                                    <li><a href="portfolio-material.html">Portfolio Material</a></li>
+                                    <li><a href="portfolio-slicer.html">Portfolio Slicer</a></li>
+                                    <li><a href="portfolio-spring.html">Portfolio Spring</a></li>
+                                </ul>
+                            </li>
+                            <li class="menu-item-has-children">
+                                <a href="#">Pages</a>
+                                <ul class="dp-menu">
+                                    <li class="menu-item-has-children">
+                                        <a href="#">service pages</a>
+                                        <ul>
+                                            <li><a href="services.html">services</a></li>
+                                            <li><a href="service-details.html">service details</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="menu-item-has-children">
+                                        <a href="#">project pages</a>
+                                        <ul>
+                                            <li><a href="works.html">project</a></li>
+                                            <li><a href="work-details.html">project details</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="menu-item-has-children">
+                                        <a href="#">team pages</a>
+                                        <ul>
+                                            <li><a href="team.html">team</a></li>
+                                            <li><a href="team-details.html">team details</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="menu-item-has-children">
+                                        <a href="#">career pages</a>
+                                        <ul>
+                                            <li><a href="career.html">career</a></li>
+                                            <li><a href="career-details.html">career details</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="faq.html">faq</a></li>
+                                    <li><a href="404.html">404 page</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#">blog</a>
+                                <ul class="dp-menu">
+                                    <li><a href="blog.html">blog</a></li>
+                                    <li><a href="blog-details.html">blog details</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="contact.html">Contact</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="header__button">
+                    <div class="wc-btn-group">
+                        <a class="wc-btn wc-btn-circle" href="contact.html">
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </a>
+                        <a class="wc-btn wc-btn-primary" href="contact.html">Get started</a>
+                        <a class="wc-btn wc-btn-circle" href="contact.html">
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="header__navicon d-xl-none">
+                    <button onclick="showCanvas3()" class="open-offcanvas">
+                        <i class="fa-solid fa-bars"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- Header Area End -->
+
+    <div class="has-smooth" id="has_smooth"></div>
+    <div id="smooth-wrapper">
+        <div id="smooth-content">
+            <div class="body-wrapper body-branding-agency">
+
+                <!-- Overlay Switcher Close -->
+                <div class="overlay-switcher-close"></div>
+
+                <main>
+
+                    <!-- Hero Area Start -->
+                    <section class="hero-area section-item">
+                        <div class="area-bg">
+                            <img src="assets/imgs/gallery/img-s-33.webp" alt="image">
+                        </div>
+                        <div class="container large">
+                            <div class="hero-area-inner">
+                                <div class="section-content">
+                                    <div class="section-title-wrapper">
+                                        <div class="title-wrapper">
+                                            <h1 class="section-title has_char_anim" data-delay="0.15" data-translateX="50">We <br> boost <span class="has_fade_anim" data-fade-from="left" data-delay="1">Pro</span> digital Presence
+                                            </h1>
+                                        </div>
+                                    </div>
+                                    <div class="video-wrapper has_fade_anim" data-ease="power3.out">
+                                        <div class="thumb p-relative">
+                                            <img src="assets/imgs/gallery/img-s-32.webp" alt="image">
+                                            <a href="https://crowdytheme.com/assets/wp-content/uploads/2024/06/apna-solution-digital-agency-video.mp4" class="wc-btn wc-btn-circle video-popup pos-center"><i class="fa-solid fa-play"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="about-area">
+                                <div class="about-area-inner section-spacing-bottom">
+                                    <div class="section-content">
+                                        <div class="section-title-wrapper">
+                                            <div class="subtitle-wrapper">
+                                                <span class="section-subtitle">Who we are</span>
+                                            </div>
+                                        </div>
+                                        <div class="content-last">
+                                            <div class="text-wrapper">
+                                                <p class="text has_text_move_anim">Apna Solution is a full-service digital agency for growth-driven businesses. We create digital solutions that look great, perform seamlessly, and drive success.</p>
+                                            </div>
+                                            <div class="btn-wrapper has_fade_anim" data-fade-from="left">
+                                                <div class="wc-btn-group">
+                                                    <a class="wc-btn wc-btn-circle" href="contact.html">
+                                                        <i class="fa-solid fa-arrow-right"></i>
+                                                    </a>
+                                                    <a class="wc-btn wc-btn-primary" href="contact.html">Get started</a>
+                                                    <a class="wc-btn wc-btn-circle" href="contact.html">
+                                                        <i class="fa-solid fa-arrow-right"></i>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <!-- Hero Area End -->
+
+                    <!-- Work Area Start -->
+                    <section class="work-area section-style section-item">
+                        <div class="container large">
+                            <div class="work-area-inner section-spacing">
+                                <div class="section-header">
+                                    <div class="section-title-wrapper">
+                                        <div class="title-wrapper">
+                                            <h2 class="section-title has_fade_anim">Selected work
+                                            </h2>
+                                        </div>
+                                    </div>
+                                    <div class="content-last">
+                                        <div class="link-meta has_fade_anim" data-fade-from="left">
+                                            <div class="profile-item">
+                                                <div class="icon"><i class="fa-brands fa-dribbble"></i></div>
+                                                <div class="">
+                                                    <span class="meta-title">Follow</span>
+                                                    <h2 class="name">Dribbble</h2>
+                                                </div>
+                                            </div>
+                                            <div class="profile-item">
+                                                <div class="icon"><i class="fa-brands fa-behance"></i></div>
+                                                <div class="">
+                                                    <span class="meta-title">Follow</span>
+                                                    <h2 class="name">Behance</h2>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="works-wrapper-box">
+                                    <div class="works-wrapper">
+                                        <div class="work-box">
+                                            <div class="thumb">
+                                                <a href="work-details.html"><img src="https://media.istockphoto.com/id/1371339413/photo/co-working-team-meeting-concept-businessman-using-smart-phone-and-digital-tablet-and-laptop.jpg?s=612x612&w=0&k=20&c=ysEsVw3q2axYt3oVZAuQjtHRlN3lY-U_e0ikK5yKIXQ=" alt="work image"></a>
+                                            </div>
+                                            <div class="content">
+                                                <h3 class="title">E-commerce <br> Website
+                                                </h3>
+                                                <div class="tags">
+                                                    <div class="tag">Web Designing</div>
+                                                    <div class="tag">SEO</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="work-box">
+                                            <div class="thumb">
+                                                <a href="work-details.html"><img src="https://png.pngtree.com/thumb_back/fh260/background/20230527/pngtree-social-media-icons-stacked-high-above-a-black-background-image_2649996.jpg" alt="work image"></a>
+                                            </div>
+                                            <div class="content">
+                                                <h3 class="title">Social Media <br> Campaign
+                                                </h3>
+                                                <div class="tags">
+                                                    <div class="tag">Social Media Handling</div>
+                                                    <div class="tag">Brand Growing</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="work-box">
+                                            <div class="thumb">
+                                                <a href="work-details.html"><img src="https://img.freepik.com/premium-vector/search-engine-optimization-seo-concept-dark-blue-background_387612-620.jpg" alt="work image"></a>
+                                            </div>
+                                            <div class="content">
+                                                <h3 class="title">SEO <br> Optimization
+                                                </h3>
+                                                <div class="tags">
+                                                    <div class="tag">SEO</div>
+                                                    <div class="tag">Web Designing</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="work-box">
+                                            <div class="thumb">
+                                                <a href="work-details.html"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSanLmIUEgTYychh9dtN40ScQt3mw3jmGbcRg&s" alt="work image"></a>
+                                            </div>
+                                            <div class="content">
+                                                <h3 class="title">Brand Identity <br> Design
+                                                </h3>
+                                                <div class="tags">
+                                                    <div class="tag">Brand Growing</div>
+                                                    <div class="tag">Web Designing</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="work-box">
+                                            <div class="thumb">
+                                                <a href="work-details.html"><img src="https://png.pngtree.com/thumb_back/fh260/background/20230627/pngtree-dark-backdrop-showcases-stunning-3d-social-media-logo-image_3684705.jpg" alt="work image"></a>
+                                            </div>
+                                            <div class="content">
+                                                <h3 class="title">Social Media <br> Graphics
+                                                </h3>
+                                                <div class="tags">
+                                                    <div class="tag">Social Media Handling</div>
+                                                    <div class="tag">Brand Growing</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="work-box">
+                                            <div class="thumb">
+                                                <a href="work-details.html"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRl_F-xbbpS4uD8w00QeehSwW1Vi8L3ArKJTw&s" alt="work image"></a>
+                                            </div>
+                                            <div class="content">
+                                                <h3 class="title">Corporate Website <br> Redesign
+                                                </h3>
+                                                <div class="tags">
+                                                    <div class="tag">Web Designing</div>
+                                                    <div class="tag">SEO</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="section-content section-spacing-top">
+                                    <div class=""></div>
+                                    <div class="content-last">
+                                        <div class="text-wrapper">
+                                            <p class="text has_text_move_anim">We deliver digital solutions with high impact, combining strategy and creativity to grow your business, supported by our expert team.</p>
+                                        </div>
+                                        <div class="btn-wrapper has_fade_anim" data-fade-from="left">
+                                            <div class="wc-btn-group">
+                                                <a class="wc-btn wc-btn-circle" href="works.html">
+                                                    <i class="fa-solid fa-arrow-right"></i>
+                                                </a>
+                                                <a class="wc-btn wc-btn-primary" href="works.html">View all works</a>
+                                                <a class="wc-btn wc-btn-circle" href="works.html">
+                                                    <i class="fa-solid fa-arrow-right"></i>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <!-- Work Area End -->
+
+                    <!-- Fun-Fact Area Start -->
+                    <section class="fun-fact-area section-style section-item">
+                        <div class="container large">
+                            <div class="fun-fact-area-inner section-spacing">
+                                <div class="section-header">
+                                    <div class="section-title-wrapper">
+                                        <div class="title-wrapper">
+                                            <h2 class="section-title has_fade_anim">Crafting impactful digital solutions is challenging. But we've successfully delivered over 150 projects this year.</h2>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="counter-wrapper-box">
+                                    <div class="counter-box overflow-hidden">
+                                        <img class="shape-1 show-light img_anim_reveal" src="assets/imgs/shape/img-s-47.webp" alt="image">
+                                        <img class="shape-1 show-dark img_anim_reveal" src="assets/imgs/shape/img-s-47-light.webp" alt="image">
+                                        <h3 class="number wc-counter has_fade_anim" data-fade-from="left">150</h3>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <!-- Fun-Fact Area End -->
+
+                    <!-- Service Area Start -->
+                    <section class="service-area section-style section-item">
+                        <div class="container large">
+                            <div class="service-area-inner section-spacing">
+                                <div class="section-header">
+                                    <div class="section-title-wrapper">
+                                        <div class="title-wrapper">
+                                            <h2 class="section-title has_fade_anim">We solve your digital challenges with innovative solutions</h2>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="services-wrapper-box">
+                                    <div class="services-wrapper">
+                                        <div class="has_fade_anim" data-delay="0.15">
+                                            <a href="service-details.html">
+                                                <div class="service-box">
+                                                    <span class="number">01</span>
+                                                    <div class="icon">
+                                                        <img src="assets/imgs/icon/icon-s-1-light.webp" alt="service icon">
+                                                    </div>
+                                                    <div class="content">
+                                                        <h3 class="title">Web Designing</h3>
+                                                        <p class="text">We create stunning, user-friendly websites tailored to your business goals.</p>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div class="has_fade_anim" data-delay="0.30">
+                                            <a href="service-details.html">
+                                                <div class="service-box">
+                                                    <span class="number">02</span>
+                                                    <div class="icon">
+                                                        <img src="assets/imgs/icon/icon-s-2-light.webp" alt="service icon">
+                                                    </div>
+                                                    <div class="content">
+                                                        <h3 class="title">SEO</h3>
+                                                        <p class="text">We optimize your online presence to rank higher and attract more visitors.</p>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div class="has_fade_anim" data-delay="0.45">
+                                            <a href="service-details.html">
+                                                <div class="service-box">
+                                                    <span class="number">03</span>
+                                                    <div class="icon">
+                                                        <img src="assets/imgs/icon/icon-s-3-light.webp" alt="service icon">
+                                                    </div>
+                                                    <div class="content">
+                                                        <h3 class="title">Social Media Handling</h3>
+                                                        <p class="text">We manage your social media to engage audiences and build your brand.</p>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div class="has_fade_anim" data-delay="0.60">
+                                            <a href="service-details.html">
+                                                <div class="service-box">
+                                                    <span class="number">04</span>
+                                                    <div class="icon">
+                                                        <img src="assets/imgs/icon/icon-s-4-light.webp" alt="service icon">
+                                                    </div>
+                                                    <div class="content">
+                                                        <h3 class="title">Brand Growing</h3>
+                                                        <p class="text">We develop strategies to enhance your brand’s visibility and impact.</p>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="info-text has_fade_anim" data-fade-from="left">
+                                    <p class="text">Save time and achieve your digital goals. <br>
+                                        <a class="wc-btn wc-btn-underline" href="contact.html">Contact us now</a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <!-- Service Area End -->
+
+                    <!-- Process Area Start -->
+                  <section class="process-area section-style section-item">
+                        <div class="container large">
+                            <div class="process-area-inner section-spacing">
+                                <div class="shape-1">
+                                    <img class="show-light" src="assets/imgs/shape/img-s-48.webp" alt="image">
+                                    <img class="show-dark" src="assets/imgs/shape/img-s-48-light.webp" alt="image">
+                                </div>
+                                <div class="section-header">
+                                    <div class="section-title-wrapper">
+                                        <div class="title-wrapper">
+                                            <h2 class="section-title has_fade_anim">Our strategic digital growth process
+                                            </h2>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="process-wrapper-box">
+                                    <div class="process-wrapper">
+                                        <div class="swiper process-slider">
+                                            <div class="swiper-wrapper">
+                                                <div class="swiper-slide has_fade_anim" data-ease="bounce" data-delay="0.15">
+                                                    <div class="process-box">
+                                                        <span class="number">Step - 01</span>
+                                                        <div class="icon">
+                                                            <img class="show-light" src="assets/imgs/icon/icon-s-16-light.webp" alt="process icon">
+                                                            <img class="show-dark" src="assets/imgs/icon/icon-s-16.webp" alt="process icon">
+                                                        </div>
+                                                        <div class="content">
+                                                            <h3 class="title">Market <br> Research
+                                                            </h3>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="swiper-slide has_fade_anim" data-ease="bounce" data-delay="0.30">
+                                                    <div class="process-box">
+                                                        <span class="number">Step - 02</span>
+                                                        <div class="icon">
+                                                            <img class="show-light" src="assets/imgs/icon/icon-s-17-light.webp" alt="process icon">
+                                                            <img class="show-dark" src="assets/imgs/icon/icon-s-17.webp" alt="process icon">
+                                                        </div>
+                                                        <div class="content">
+                                                            <h3 class="title">Strategy <br> Planning
+                                                            </h3>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="swiper-slide has_fade_anim" data-ease="bounce" data-delay="0.45">
+                                                    <div class="process-box">
+                                                        <span class="number">Step - 03</span>
+                                                        <div class="icon">
+                                                            <img class="show-light" src="assets/imgs/icon/icon-s-18-light.webp" alt="process icon">
+                                                            <img class="show-dark" src="assets/imgs/icon/icon-s-18.webp" alt="process icon">
+                                                        </div>
+                                                        <div class="content">
+                                                            <h3 class="title">Design and <br> Development </h3>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="swiper-slide has_fade_anim" data-ease="bounce" data-delay="0.60">
+                                                    <div class="process-box">
+                                                        <span class="number">Step - 04</span>
+                                                        <div class="icon">
+                                                            <img class="show-light" src="assets/imgs/icon/icon-s-19-light.webp" alt="process icon">
+                                                            <img class="show-dark" src="assets/imgs/icon/icon-s-19.webp" alt="process icon">
+                                                        </div>
+                                                        <div class="content">
+                                                            <h3 class="title">Testing & <br> Optimization
+                                                            </h3>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="swiper-slide has_fade_anim" data-ease="bounce" data-delay="0.75">
+                                                    <div class="process-box">
+                                                        <span class="number">Step - 05</span>
+                                                        <div class="icon">
+                                                            <img class="show-light" src="assets/imgs/icon/icon-s-17-light.webp" alt="process icon">
+                                                            <img class="show-dark" src="assets/imgs/icon/icon-s-17.webp" alt="process icon">
+                                                        </div>
+                                                        <div class="content">
+                                                            <h3 class="title">Launch & <br> Monitor
+                                                            </h3>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="swiper-slide has_fade_anim" data-ease="bounce" data-delay="0.90">
+                                                    <div class="process-box">
+                                                        <span class="number">Step - 06</span>
+                                                        <div class="icon">
+                                                            <img class="show-light" src="assets/imgs/icon/icon-s-18-light.webp" alt="process icon">
+                                                            <img class="show-dark" src="assets/imgs/icon/icon-s-18.webp" alt="process icon">
+                                                        </div>
+                                                        <div class="content">
+                                                            <h3 class="title">Growth & <br> Scale </h3>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <!-- Process Area End -->
+
+                    <div class="image-wrapper section-style pb-0 overflow-hidden">
+                        <img class="w-100" src="assets/imgs/gallery/img-s-34.webp" data-speed=".8" alt="image">
+                    </div>
+
+                    <!-- Testimonial Area Start -->
+                     <!--
+                    <div class="testimonial-area section-style section-item">
+                        <div class="container large">
+                            <div class="testimonial-area-inner section-spacing">
+                                <div class="section-header">
+                                    <div class="section-title-wrapper">
+                                        <div class="title-wrapper">
+                                            <h2 class="section-title has_fade_anim">What our clients say about us</h2>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="testimonial-wrapper-box">
+                                    <div class="info-box">
+                                        <h3 class="rating">4.9</h3>
+                                        <div class="rating-icons">
+                                            <img src="assets/imgs/icon/star.webp" alt="icon">
+                                            <img src="assets/imgs/icon/star.webp" alt="icon">
+                                            <img src="assets/imgs/icon/star.webp" alt="icon">
+                                            <img src="assets/imgs/icon/star.webp" alt="icon">
+                                            <img src="assets/imgs/icon/star.webp" alt="icon">
+                                        </div>
+                                        <p class="reviews">(40+ reviews)</p>
+                                        <p class="text">Delivering exceptional digital solutions for business growth.
+                                        </p>
+                                    </div>
+                                    <div class="testimonial-wrapper">
+                                        <div class="swiper testimonial-slider">
+                                            <div class="swiper-wrapper">
+                                                <div class="swiper-slide">
+                                                    <div class="testimonial-item">
+                                                        <div class="content">
+                                                            <div class="content-top">
+                                                                <div class="icon">
+                                                                    <img class="quote-icon" src="assets/imgs/icon/quote-6.webp" alt="Quote Icon">
+                                                                </div>
+                                                                <div class="text-wrapper">
+                                                                    <p class="text">As a fast-moving startup, Apna Solution has been a reliable partner, delivering <span>high-quality</span> websites and social media campaigns that align with our vision.</p>
+                                                                </div>
+                                                            </div>
+                                                            <div class="author">
+                                                                <div class="meta">
+                                                                    <h3 class="name">David Heyman</h3>
+                                                                    <span class="post">CEO, TechTrend</span>
+                                                                </div>
+                                                                <div class="publisher">
+                                                                    <img class="show-light" src="assets/imgs/shape/img-s-49.webp" alt="logo">
+                                                                    <img class="show-dark" src="assets/imgs/shape/img-s-49-light.webp" alt="logo">
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="swiper-slide">
+                                                    <div class="testimonial-item">
+                                                        <div class="content">
+                                                            <div class="content-top">
+                                                                <div class="icon">
+                                                                    <img class="quote-icon" src="assets/imgs/icon/quote-6.webp" alt="Quote Icon">
+                                                                </div>
+                                                                <div class="text-wrapper">
+                                                                    <p class="text">Their team provides <span>exceptional</span> SEO and branding services. They’ve been a <span>great partner</span> in scaling our online presence!</p>
+                                                                </div>
+                                                            </div>
+                                                            <div class="author">
+                                                                <div class="meta">
+                                                                    <h3 class="name">Mike D. Brown</h3>
+                                                                    <span class="post">CEO, GrowEasy</span>
+                                                                </div>
+                                                                <div class="publisher">
+                                                                    <img class="show-light" src="assets/imgs/shape/img-s-49.webp" alt="logo">
+                                                                    <img class="show-dark" src="assets/imgs/shape/img-s-49-light.webp" alt="logo">
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="slider-nav">
+                                        <div class="testimonial-button-prev nav-icon">
+                                            <i class="fa-solid fa-arrow-left"></i>
+                                        </div>
+                                        <div class="testimonial-button-next nav-icon">
+                                            <i class="fa-solid fa-arrow-right"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="clients-area-inner">
+                                    <div class="client-slider">
+                                        <div class="swiper client-slider-active">
+                                            <div class="swiper-wrapper">
+                                                <div class="swiper-slide">
+                                                    <div class="client-box">
+                                                        <img class="show-light" src="assets/imgs/brand/img-s-1.webp" alt="client image">
+                                                        <img class="show-dark" src="assets/imgs/brand/img-s-1-light.webp" alt="client image">
+                                                    </div>
+                                                </div>
+                                                <div class="swiper-slide">
+                                                    <div class="client-box">
+                                                        <img class="show-light" src="assets/imgs/brand/img-s-2.webp" alt="client image">
+                                                        <img class="show-dark" src="assets/imgs/brand/img-s-2-light.webp" alt="client image">
+                                                    </div>
+                                                </div>
+                                                <div class="swiper-slide">
+                                                    <div class="client-box">
+                                                        <img class="show-light" src="assets/imgs/brand/img-s-3.webp" alt="client image">
+                                                        <img class="show-dark" src="assets/imgs/brand/img-s-3-light.webp" alt="client image">
+                                                    </div>
+                                                </div>
+                                                <div class="swiper-slide">
+                                                    <div class="client-box">
+                                                        <img class="show-light" src="assets/imgs/brand/img-s-4.webp" alt="client image">
+                                                        <img class="show-dark" src="assets/imgs/brand/img-s-4-light.webp" alt="client image">
+                                                    </div>
+                                                </div>
+                                                <div class="swiper-slide">
+                                                    <div class="client-box">
+                                                        <img class="show-light" src="assets/imgs/brand/img-s-5.webp" alt="client image">
+                                                        <img class="show-dark" src="assets/imgs/brand/img-s-5-light.webp" alt="client image">
+                                                    </div>
+                                                </div>
+                                                <div class="swiper-slide">
+                                                    <div class="client-box">
+                                                        <img class="show-light" src="assets/imgs/brand/img-s-6.webp" alt="client image">
+                                                        <img class="show-dark" src="assets/imgs/brand/img-s-6-light.webp" alt="client image">
+                                                    </div>
+                                                </div>
+                                                <div class="swiper-slide">
+                                                    <div class="client-box">
+                                                        <img class="show-light" src="assets/imgs/brand/img-s-7.webp" alt="client image">
+                                                        <img class="show-dark" src="assets/imgs/brand/img-s-7-light.webp" alt="client image">
+                                                    </div>
+                                                </div>
+                                                <div class="swiper-slide">
+                                                    <div class="client-box">
+                                                        <img class="show-light" src="assets/imgs/brand/img-s-8.webp" alt="client image">
+                                                        <img class="show-dark" src="assets/imgs/brand/img-s-8-light.webp" alt="client image">
+                                                    </div>
+                                                </div>
+                                                <div class="swiper-slide">
+                                                    <div class="client-box">
+                                                        <img class="show-light" src="assets/imgs/brand/img-s-9.webp" alt="client image">
+                                                        <img class="show-dark" src="assets/imgs/brand/img-s-9-light.webp" alt="client image">
+                                                    </div>
+                                                </div>
+                                                <div class="swiper-slide">
+                                                    <div class="client-box">
+                                                        <img class="show-light" src="assets/imgs/brand/img-s-10.webp" alt="client image">
+                                                        <img class="show-dark" src="assets/imgs/brand/img-s-10-light.webp" alt="client image">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div> 
+                    -->
+
+                    <!-- Testimonial Area End -->
+
+                    <!-- Team Area Start -->
+                    <section class="team-area section-style section-item">
+                        <div class="container large">
+                            <div class="team-area-inner section-spacing">
+                                <div class="section-header">
+                                    <div class="section-title-wrapper">
+                                        <div class="title-wrapper">
+                                            <h2 class="section-title has_fade_anim">The talented team behind your digital success
+                                            </h2>
+                                        </div>
+                                    </div>
+                                    <div class="text-wrapper">
+                                        <p class="text has_fade_anim">Our expertise and passion ensure your business thrives in the competitive digital landscape.</p>
+                                    </div>
+                                </div>
+                                <div class="team-wrapper-box">
+                                    <div class="team-wrapper">
+                                        <div class="team-box">
+                                            <div class="thumb">
+                                                <a href="team-details.html"><img src="assets/imgs/team/img-s-15.webp" alt="team image"></a>
+                                            </div>
+                                            <div class="content">
+                                                <div class="top">
+                                                    <h3 class="name"><a href="team-details.html">Kamal </a></h3>
+                                                    <p class="post">CEO, Apna Solution</p>
+                                                </div>
+                                                <div class="wc-btn-group">
+                                                    <a class="wc-btn wc-btn-circle" href="#">
+                                                        <i class="fa-brands fa-linkedin-in"></i>
+                                                    </a>
+                                                    <a class="wc-btn wc-btn-primary" href="#">LinkedIn</a>
+                                                    <a class="wc-btn wc-btn-circle" href="#">
+                                                        <i class="fa-brands fa-linkedin-in"></i>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="team-box">
+                                            <div class="thumb">
+                                                <a href="team-details.html"><img src="assets/imgs/team/img-s-16.webp" alt="team image"></a>
+                                            </div>
+                                            <div class="content">
+                                                <div class="top">
+                                                    <h3 class="name"><a href="team-details.html">Selina</a></h3>
+                                                    <p class="post">SEO Specialist</p>
+                                                </div>
+                                                <div class="wc-btn-group">
+                                                    <a class="wc-btn wc-btn-circle" href="#">
+                                                        <i class="fa-brands fa-twitter"></i>
+                                                    </a>
+                                                    <a class="wc-btn wc-btn-primary" href="#">Twitter</a>
+                                                    <a class="wc-btn wc-btn-circle" href="#">
+                                                        <i class="fa-brands fa-twitter"></i>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="team-box">
+                                            <div class="thumb">
+                                                <a href="team-details.html"><img src="assets/imgs/team/img-s-17.webp" alt="team image"></a>
+                                            </div>
+                                            <div class="content">
+                                                <div class="top">
+                                                    <h3 class="name"><a href="team-details.html">Pedrik Vadra</a></h3>
+                                                    <p class="post">Web Designer</p>
+                                                </div>
+                                                <div class="wc-btn-group">
+                                                    <a class="wc-btn wc-btn-circle" href="#">
+                                                        <i class="fa-brands fa-linkedin-in"></i>
+                                                    </a>
+                                                    <a class="wc-btn wc-btn-primary" href="#">LinkedIn</a>
+                                                    <a class="wc-btn wc-btn-circle" href="#">
+                                                        <i class="fa-brands fa-linkedin-in"></i>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="team-box">
+                                            <div class="thumb">
+                                                <a href="team-details.html"><img src="assets/imgs/team/img-s-18.webp" alt="team image"></a>
+                                            </div>
+                                            <div class="content">
+                                                <div class="top">
+                                                    <h3 class="name"><a href="team-details.html">Thomas</a></h3>
+                                                    <p class="post">Social Media Manager</p>
+                                                </div>
+                                                <div class="wc-btn-group">
+                                                    <a class="wc-btn wc-btn-circle" href="#">
+                                                        <i class="fa-brands fa-twitter"></i>
+                                                    </a>
+                                                    <a class="wc-btn wc-btn-primary" href="#">Twitter</a>
+                                                    <a class="wc-btn wc-btn-circle" href="#">
+                                                        <i class="fa-brands fa-twitter"></i>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="team-box">
+                                            <div class="thumb">
+                                                <a href="team-details.html"><img src="assets/imgs/team/img-s-19.webp" alt="team image"></a>
+                                            </div>
+                                            <div class="content">
+                                                <div class="top">
+                                                    <h3 class="name"><a href="team-details.html">Jonathon </a></h3>
+                                                    <p class="post">Brand Strategist</p>
+                                                </div>
+                                                <div class="wc-btn-group">
+                                                    <a class="wc-btn wc-btn-circle" href="#">
+                                                        <i class="fa-brands fa-linkedin-in"></i>
+                                                    </a>
+                                                    <a class="wc-btn wc-btn-primary" href="#">LinkedIn</a>
+                                                    <a class="wc-btn wc-btn-circle" href="#">
+                                                        <i class="fa-brands fa-linkedin-in"></i>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="team-box">
+                                            <div class="thumb">
+                                                <a href="team-details.html"><img src="assets/imgs/team/img-s-20.webp" alt="team image"></a>
+                                            </div>
+                                            <div class="content">
+                                                <div class="top">
+                                                    <h3 class="name"><a href="team-details.html">Angel D. Mariya</a></h3>
+                                                    <p class="post">Digital Marketer</p>
+                                                </div>
+                                                <div class="wc-btn-group">
+                                                    <a class="wc-btn wc-btn-circle" href="#">
+                                                        <i class="fa-brands fa-twitter"></i>
+                                                    </a>
+                                                    <a class="wc-btn wc-btn-primary" href="#">Twitter</a>
+                                                    <a class="wc-btn wc-btn-circle" href="#">
+                                                        <i class="fa-brands fa-twitter"></i>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <!-- Team Area End -->
+
+                    <!-- Blog Area Start -->
+                    <section class="blog-area section-style section-item">
+                        <div class="container large">
+                            <div class="blog-area-inner section-spacing">
+                                <div class="section-header">
+                                    <div class="section-title-wrapper">
+                                        <div class="title-wrapper">
+                                            <h2 class="section-title has_fade_anim">Journal from Apna Solution
+                                            </h2>
+                                        </div>
+                                    </div>
+                                    <div class="btn-wrapper has_fade_anim" data-fade-from="right">
+                                        <div class="wc-btn-group">
+                                            <a class="wc-btn wc-btn-circle" href="blog.html">
+                                                <i class="fa-solid fa-arrow-right"></i>
+                                            </a>
+                                            <a class="wc-btn wc-btn-primary" href="blog.html">read all posts</a>
+                                            <a class="wc-btn wc-btn-circle" href="blog.html">
+                                                <i class="fa-solid fa-arrow-right"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="blogs-wrapper-box">
+                                    <div class="blogs-wrapper">
+                                        <article class="blog has_fade_anim" data-fade-from="right" data-delay="0.15">
+                                            <div class="thumb">
+                                                <a href="blog-details.html">
+                                                    <img src="assets/imgs/blog/img-s-8.webp" alt="blog image">
+                                                </a>
+                                            </div>
+                                            <div class="content">
+                                                <h2 class="title"><a href="blog-details.html">A beginner’s guide to effective SEO strategies for small businesses</a></h2>
+                                                <div class="meta-list">
+                                                    <a href="#"><span class="meta tag">SEO</span></a>
+                                                    <span class="meta date">14 Jan 2024</span>
+                                                </div>
+                                            </div>
+                                        </article>
+                                        <article class="blog has_fade_anim" data-fade-from="right" data-delay="0.30">
+                                            <div class="thumb">
+                                                <a href="blog-details.html">
+                                                    <img src="assets/imgs/blog/img-s-9.webp" alt="blog image">
+                                                </a>
+                                            </div>
+                                            <div class="content">
+                                                <h2 class="title"><a href="blog-details.html">How social media handling can boost your brand’s online presence</a></h2>
+                                                <div class="meta-list">
+                                                    <a href="#"><span class="meta tag">Social Media Handling</span></a>
+                                                    <span class="meta date">14 Jan 2024</span>
+                                                </div>
+                                            </div>
+                                        </article>
+                                        <article class="blog has_fade_anim" data-fade-from="left" data-delay="0.45">
+                                            <div class="thumb">
+                                                <a href="blog-details.html">
+                                                    <img src="assets/imgs/blog/img-s-10.webp" alt="blog image">
+                                                </a>
+                                            </div>
+                                            <div class="content">
+                                                <h2 class="title"><a href="blog-details.html">Top web design trends to elevate your website in 2025</a></h2>
+                                                <div class="meta-list">
+                                                    <a href="#"><span class="meta tag">Web Designing</span></a>
+                                                    <span class="meta date">14 Jan 2024</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <!-- Blog Area End -->
+
+                    <!-- CTA Area Start -->
+                    <section class="cta-area section-style section-item">
+                        <div class="container large">
+                            <div class="cta-area-inner section-spacing">
+                                <div class="section-content">
+                                    <div class="section-title-wrapper">
+                                        <div class="subtitle-wrapper">
+                                            <span class="section-subtitle has_fade_anim">Have a project in mind?</span>
+                                        </div>
+                                        <div class="title-wrapper">
+                                            <h2 class="section-title has_fade_anim">Let’s grow together
+                                            </h2>
+                                        </div>
+                                    </div>
+                                    <div class="btn-wrapper has_fade_anim">
+                                        <div class="wc-btn-group">
+                                            <a class="wc-btn wc-btn-circle" href="contact.html">
+                                                <i class="fa-solid fa-arrow-right"></i>
+                                            </a>
+                                            <a class="wc-btn wc-btn-primary" href="contact.html">contact us</a>
+                                            <a class="wc-btn wc-btn-circle" href="contact.html">
+                                                <i class="fa-solid fa-arrow-right"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <!-- CTA Area End -->
+
+                </main>
+
+                <!-- Footer Area Start -->
+                <footer class="footer-area section-style pb-0">
+                    <div class="container large">
+                        <div class="footer-area-inner section-spacing-top">
+                            <div class="footer-widget-wrapper">
+                                <div class="footer-logo">
+                                    <a href="#"><img src="assets/imgs/logo/logo-light-2.png" alt="Apna Solution Logo"></a>
+                                </div>
+                            </div>
+                            <div class="footer-widget-wrapper">
+                                <h2 class="title">Service</h2>
+                                <ul class="footer-nav-list">
+                                    <li><a href="#">Web Designing</a></li>
+                                    <li><a href="#">SEO</a></li>
+                                    <li><a href="#">Social Media Handling</a></li>
+                                    <li><a href="#">Brand Growing</a></li>
+                                </ul>
+                            </div>
+                            <div class="footer-widget-wrapper">
+                                <h2 class="title">Company</h2>
+                                <ul class="footer-nav-list">
+                                    <li><a href="#">Home</a></li>
+                                    <li><a href="#">About</a></li>
+                                    <li><a href="#">Portfolio</a></li>
+                                    <li><a href="#">Career</a></li>
+                                    <li><a href="#">Contact Us</a></li>
+                                </ul>
+                            </div>
+                            <div class="footer-widget-wrapper newsletter">
+                                <h2 class="title">Newsletter</h2>
+                                <div class="newsletter-text">
+                                    <p class="text">Feel free to reach out to collaborate or discuss your digital goals with us.
+                                    </p>
+                                </div>
+                                <form action="#" class="subscribe-form">
+                                    <div class="input-field">
+                                        <span class="icon"><i class="fa-regular fa-envelope"></i></span>
+                                        <input type="email" placeholder="Enter your email">
+                                        <button type="submit" class="subscribe-btn"><i class="fa-solid fa-paper-plane"></i></button>
+                                    </div>
+                                </form>
+                            </div>
+                           <!-- <div class="footer-widget-wrapper">
+                                <h2 class="title">Mumbai</h2>
+                                <ul class="footer-nav-list">
+                                    <li><a class="text-underline location" href="#">123 Business Park, Mumbai, MH 400001, India</a></li>
+                                    <li><a href="tel:+91-123-456-7890">+91-123-456-7890</a></li>
+                                    <li><a href="mailto:info@apnasolution.com">info@apnasolution.com</a></li>
+                                </ul>
+                            </div> -->
+                            <div class="footer-widget-wrapper">
+                                <h2 class="title">Delhi</h2>
+                                <ul class="footer-nav-list">
+                                    <li><a class="text-underline location" href="#">I-98/A, Krishan vihar delhi - 110086, India</a></li>
+                                    <li><a href="tel:+91-123-456-7890">+91-931037536</a></li>
+                                    <li><a href="mailto:info@apnasolution.com">info@apnasolution.com</a></li>
+                                </ul>
+                            </div>
+                            <div class="footer-widget-wrapper">
+                                <h2 class="title">Follow Us</h2>
+                                <ul class="social-links">
+                                    <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+                                    <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                                    <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                                    <li><a href="#"><i class="fa-brands fa-linkedin"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="copyright-area">
+                        <div class="container large">
+                            <div class="copyright-area-inner">
+                                <div class="copyright-text">
+                                    <p class="text">© 2024-25 <a href="https://apnasolution.com" target="_blank">Apna Solution</a> Agency
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </footer>
+                <!-- Footer Area End -->
+
+            </div>
+        </div>
+    </div>
+
+    <!-- All JS files -->
+    <script src="assets/js/jquery-3.6.0.min.js"></script>
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/jquery.magnific-popup.min.js"></script>
+    <script src="assets/js/swiper-bundle.min.js"></script>
+    <script src="assets/js/counter.js"></script>
+    <script src="assets/js/progressbar.js"></script>
+    <script src="assets/js/gsap.min.js"></script>
+    <script src="assets/js/ScrollSmoother.min.js"></script>
+    <script src="assets/js/ScrollToPlugin.min.js"></script>
+    <script src="assets/js/ScrollTrigger.min.js"></script>
+    <script src="assets/js/SplitText.min.js"></script>
+    <script src="assets/js/jquery.meanmenu.min.js"></script>
+    <script src="assets/js/backToTop.js"></script>
+    <script src="assets/js/main.js"></script>
+    <script src="assets/js/error-handling.js"></script>
+    <script src="assets/js/offcanvas.js"></script>
+
+    <script>
+        // Process Slider
+        if (('.process-slider').length) {
+            var process_slider = new Swiper(".process-slider", {
+                loop: true,
+                slidesPerView: 1,
+                spaceBetween: 0,
+                speed: 1800,
+                watchSlidesProgress: true,
+                breakpoints: {
+                    576: {
+                        slidesPerView: 1,
+                    },
+                    768: {
+                        slidesPerView: 2,
+                    },
+                    992: {
+                        slidesPerView: 3,
+                    },
+                    1201: {
+                        slidesPerView: 3,
+                    },
+                    1367: {
+                        slidesPerView: 3,
+                    },
+                    1441: {
+                        slidesPerView: 4,
+                    },
+                }
+            });
+        }
+
+        // Testimonial Slider
+        if (('.testimonial-slider').length) {
+            var testimonial_slider = new Swiper(".testimonial-slider", {
+                loop: true,
+                slidesPerView: 1,
+                spaceBetween: 50,
+                speed: 1800,
+                watchSlidesProgress: true,
+                navigation: {
+                    prevEl: ".testimonial-button-prev",
+                    nextEl: ".testimonial-button-next",
+                },
+                breakpoints: {
+                    576: {
+                        slidesPerView: 1,
+                    },
+                    768: {
+                        slidesPerView: 1,
+                    },
+                    992: {
+                        slidesPerView: 1,
+                    },
+                    1201: {
+                        slidesPerView: 2,
+                    },
+                    1367: {
+                        slidesPerView: 2,
+                    },
+                    1441: {
+                        slidesPerView: 2,
+                    },
+                }
+            });
+        }
+
+        // Client Slider 
+        if ('.client-slider-active') {
+            var client_slider_active = new Swiper(".client-slider-active", {
+                slidesPerView: 'auto',
+                loop: true,
+                autoplay: true,
+                spaceBetween: 140,
+                speed: 3000,
+                autoplay: {
+                    delay: 1,
+                },
+            });
+        }
+    </script>
+
+</body>
+
+</html>
